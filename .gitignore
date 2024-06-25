@@ -1,0 +1,14 @@
+# Node
+node_modules/
+*.log
+
+# Vite
+dist/
+
+# IDEs and editors
+.idea/
+.vscode/
+
+# System Files
+.DS_Store
+Thumbs.db
