@@ -1,8 +1,14 @@
+import { fontFamily } from 'tailwindcss/defaultTheme';
+
 export default {
   content: ["index.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Inter', ...fontFamily.sans]
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 }
 
