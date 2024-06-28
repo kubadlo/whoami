@@ -1,7 +1,7 @@
 import { fontFamily } from 'tailwindcss/defaultTheme';
 
 export default {
-  content: ["index.html"],
+  content: ['index.html'],
   theme: {
     extend: {
       fontFamily: {
@@ -10,5 +10,4 @@ export default {
     }
   },
   plugins: []
-}
-
+};
