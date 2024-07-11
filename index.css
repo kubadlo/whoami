@@ -1,6 +1,3 @@
-@import "@fontsource/inter/latin.css";
-@import "@fontsource/inter/latin-ext.css";
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
