@@ -1,0 +1,10 @@
+---
+const { title, description } = Astro.props;
+---
+
+<header class="flex flex-col leading-relaxed">
+  <h1 class="text-xl font-bold text-zinc-800 dark:text-zinc-200">
+    {title}
+  </h1>
+  <p class="text-zinc-600 dark:text-zinc-400">{description}</p>
+</header>
