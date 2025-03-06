@@ -1,0 +1,10 @@
+[
+  {
+    "label": "Dev",
+    "command": "npm run dev"
+  },
+  {
+    "label": "Build",
+    "command": "npm run build"
+  }
+]

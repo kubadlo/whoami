@@ -1,0 +1,15 @@
+# Node
+node_modules/
+*.log
+
+# Astro
+.astro/
+dist/
+
+# Environment variables
+.env
+.env.production
+
+# System Files
+.DS_Store
+Thumbs.db
