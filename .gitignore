@@ -10,6 +10,11 @@ dist/
 .env
 .env.production
 
+# IDEs and editors
+.idea/
+.vscode/
+.zed/
+
 # System Files
 .DS_Store
 Thumbs.db
