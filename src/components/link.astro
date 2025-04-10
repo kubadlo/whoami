@@ -1,4 +1,6 @@
 ---
+import ArrowUpRight from "../icons/arrow-up-right.astro";
+
 const { href, me = false } = Astro.props;
 
 let rel = "noopener noreferrer";
@@ -14,5 +16,5 @@ if (me) {
   class="flex flex-row items-center gap-1 text-zinc-600 transition-colors duration-75 ease-in-out hover:text-sky-500 dark:hover:text-sky-400 dark:text-zinc-300"
 >
   <span class="hover:underline"><slot /></span>
-  <span aria-hidden="true">↗</span>
+  <span aria-hidden="true"><ArrowUpRight /></span>
 </a>
